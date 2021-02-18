@@ -14,7 +14,7 @@ app.use('/api/v1/user', userRoutes);
 
 app.get('/',(req,res)=>{
 
-    res.send('Muhammet Mensur');
+    res.send('Hello World');
 
 });
 
